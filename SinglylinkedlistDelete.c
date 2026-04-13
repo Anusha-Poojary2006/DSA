@@ -125,7 +125,7 @@ void deleteAtPosition(Node** head,int position){
         currentNode=currentNode->next;
     }
     if(currentNode==NULL){
-        printf("can't insert at this position,there are less nodes\n");
+        printf("can't delete at this position,there are less nodes\n");
         return;
     }
     Node* temp=currentNode->next;
