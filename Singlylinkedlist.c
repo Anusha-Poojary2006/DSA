@@ -183,7 +183,7 @@ int main(){
     int choice,data,position,key;
     Node* head=NULL;
     while(1){
-        printf("\n-----Linked list demo-----\n");
+        printf("\n-----Singly linked list demo-----\n");
         printf("1.Insert a node at start\n");
         printf("2.Insert a node at end\n");
         printf("3.Insert a node at given position\n");
